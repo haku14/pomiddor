@@ -15,17 +15,14 @@ export default function Header() {
                 />
               </a>
               <div className="flex ml-[57px] gap-x-[57px] md:hidden sm:hidden">
-                <a href="/catalog" className="text-18">
+                <a href="/catalog" className="text-18 duration-100 ease-in hover:text-blue-500">
                   Каталог
                 </a>
-                <a href="/info" className="text-18">
+                <a href="/info" className="text-18 duration-100 ease-in hover:text-blue-500">
                   О нас
                 </a>
-                <a href="/contact" className="text-18">
+                <a href="/contact" className="text-18 duration-100 ease-in hover:text-blue-500">
                   Контакты
-                </a>
-                <a href="/dpo" className="text-18">
-                  Дополнительно
                 </a>
               </div>
             </div>
